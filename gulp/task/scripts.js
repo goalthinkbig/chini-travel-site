@@ -6,7 +6,7 @@ gulp.task('scripts', function(callback) {
     if (err) {
       console.log(err.toString());
     }
-
+    console.log('Hurry chini');
     console.log(stats.toString());
     callback();
   });
